@@ -1,21 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.myapp"
+    package="com.example.test"
     android:versionCode="1"
     android:versionName="1.0">
-
-    <application
-        android:allowBackup="true"
-        android:label="My Native App"
-        android:icon="@mipmap/ic_launcher">
-
+    <application>
         <activity
-            android:name="android.app.NativeActivity"
-            android:label="My Native App"
-            android:configChanges="orientation|keyboardHidden|screenSize">
+            android:name="android.app.NativeActivity">
             <meta-data
                 android:name="android.app.lib_name"
-                android:value="myapp" />
+                android:value="test" />
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
